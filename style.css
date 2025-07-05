@@ -1,0 +1,50 @@
+*{
+    margin: 10;
+    padding:10;
+    box-sizing:border-box;
+      
+}
+body{
+   font-family: Arial, Helvetica, sans-serif;
+}
+header, footer{
+    background-color: green;
+    color: white;
+    text-align: center;
+    padding: 1px;
+
+}
+
+.container{
+    display: flex;
+    min-height: 400px;
+}
+ nav{
+    width: 200px;
+    background-color: bisque;
+    padding: 1em;
+ }
+ nav ul{
+    list-style:circle;
+ }
+ 
+ nav ul li{
+    margin: 10px; 
+ }
+nav ul li a {
+    text-decoration:none;
+    color: coral;
+
+}
+
+main{
+
+    padding: 1em;
+    background-color: aquamarine;
+}
+footer{
+    margin-top: auto;
+    padding: 1em;
+}
+
+
